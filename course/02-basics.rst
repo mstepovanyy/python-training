@@ -122,7 +122,7 @@ instance.  For example, consider the below code:
         def static_method():
             pass
 
-	a = A()
+    a = A()
 
     a.method()
     A.method(a)
