@@ -114,7 +114,15 @@ instance.  For example, consider the below code:
         def method(self):
             pass
 
-    a = A()
+		@classmethod
+		def class_method(cls):
+			return cls()
+
+		@staticmethod
+		def static_method():
+			pass
+
+	a = A()
 
     a.method()
     A.method(a)
