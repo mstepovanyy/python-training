@@ -83,3 +83,7 @@ if __name__ == "__main__":
     my_number_printer.time_in_past("h")
     my_number_printer.time_in_past("d")
     my_number_printer.string(10)
+
+    another_printer = MyNumberPrinter(9)
+    another_printer.string(2)
+    another_printer.time_in_past("d")
