@@ -40,7 +40,7 @@ doc-string** conventions.
 
 `PEP 257` is not enough strict, hence, there are many corporate conventions
 built on top of it.  I recommend to stick to `Google doc-string conventions
-<http://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments>`__.
+<http://google.github.io/styleguide/pyguide.html?showone=Comments#Comments>`__.
 
 docutils package
 ----------------
