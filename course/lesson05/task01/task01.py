@@ -29,7 +29,7 @@ def remove_empty_lines(file_name):
 
 def get_output_file(path):
     """
-    Accepts input file, and based on this file - new file name is generated.
+    Accepts input file. New file name is generated based on this file.
 
     Args:
         path (str): input file, will be parsed
