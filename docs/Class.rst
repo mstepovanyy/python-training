@@ -50,7 +50,7 @@ A static method is a method that receives neither a class nor a class instance a
 Magic Methods
 =============
 
-This methods compiled statically(not in run time). So this methods cannot be overrided at run-time.
+This methods compiled statically(not in run time). So this methods cannot be overwritten at run-time.
 
 `__new__`
 +++++++++
