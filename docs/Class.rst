@@ -31,4 +31,21 @@ It is possible to read class attributes' values from a class instance, but it is
     >>> b.class_attr
     4
 
+`__slots__`
+===========
+
+Used to save space, by skipping `__dict__` in each object. 
+
+By default, instances of both old and new-style classes have a dictionary for attribute storage. This wastes space for objects having very few instance variables. The space consumption can become acute when creating large numbers of instances.
+The default can be overridden by defining __slots__ in a new-style class definition. The __slots__ declaration takes a sequence of instance variables and reserves just enough space in each instance to hold a value for each variable. Space is saved because __dict__ is not created for each instance.
+
+Class method
+============
+A class method is a method which receives a class itself as the first argument instead of a class instance.
+
+Static method
+=============
+A static method is a method that receives neither a class nor a class instance as the first argument. It is accessible through a declaring class only.
+
+
 
