@@ -47,5 +47,19 @@ Static method
 =============
 A static method is a method that receives neither a class nor a class instance as the first argument. It is accessible through a declaring class only.
 
+`__new__` vs `__init__`
+=======================
+
+`__new__`
++++++++++
+
+1. Control creation of class
+2. Used in case of subclassing immutable type(int, float, complex, str, tuple, frozenset, bytes)
+3. Returns created object, so can be used in Factory, Singleton pattern.
+
+`__init__`
+++++++++++
+1. Responcible for initialization of created object.
+
 
 
