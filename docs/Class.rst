@@ -2,7 +2,9 @@
 Class
 *****
 
-.. contents
+.. contents::
+
+.. sectnum::
 
 Class Attributes vs Object attributes
 =====================================
