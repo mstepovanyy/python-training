@@ -47,8 +47,10 @@ Static method
 =============
 A static method is a method that receives neither a class nor a class instance as the first argument. It is accessible through a declaring class only.
 
-`__new__` vs `__init__`
-=======================
+Magic Methods
+=============
+
+This methods compiled statically(not in run time). So this methods cannot be overrided at run-time.
 
 `__new__`
 +++++++++
