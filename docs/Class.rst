@@ -12,6 +12,7 @@ Class Attributes vs Object attributes
 It is possible to read class attributes' values from a class instance, but it is allowed to write and delete instance attributes only.
 
 .. code-block:: Python
+
     >>> class A(object):
     ...   class_attr = 1
     ...
