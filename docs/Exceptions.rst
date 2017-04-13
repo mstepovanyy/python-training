@@ -9,11 +9,13 @@ Exceptions
 
 Hierarchy
 =========
-- SystemExit
-- KeyboardInterrupt
-- GeneratorException
-- Exception
--- StopIteration
--- StopAsyncIteration
--- ArithmeticError
--- ...
+
+* SystemExit
+* KeyboardInterrupt
+* GeneratorException
+* Exception
+** StopIteration
+** StopAsyncIteration
+** ArithmeticError
+** ...
+
