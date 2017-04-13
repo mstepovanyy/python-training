@@ -14,7 +14,6 @@ Hierarchy
 * KeyboardInterrupt
 * GeneratorException
 * Exception
-
     * StopIteration
     * StopAsyncIteration
     * ArithmeticError
