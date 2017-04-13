@@ -41,7 +41,7 @@ Unhandled Exceptions
 ====================
 
 It is possible to define handler, for any uncought exception.
-
+.. note::
     sys.excepthook(type, value, traceback)
     
     This function prints out a given traceback and exception to sys.stderr.
