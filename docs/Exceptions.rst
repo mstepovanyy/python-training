@@ -60,7 +60,6 @@ mudule signal_ - Set handlers for asynchronous events
 .. _signal: https://docs.python.org/3/library/signal.html
 
 module atexit_ - register exit handlers
-
 .. _atexit: https://docs.python.org/3/library/atexit.html
 .. note::
     The functions registered via this module are not called when the program is killed
