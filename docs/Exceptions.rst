@@ -2,7 +2,7 @@
 Exceptions
 **********
 
-.. content::
+.. contents::
 
 .. sectnum::
 
