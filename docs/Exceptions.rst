@@ -53,13 +53,17 @@ Asynchronous events
 
 Very limited on Windows.
 This module provides mechanisms to use signal handlers in Python.
-A common sense is to handle at least SIGINTand SIGTERM gracefully.
+A common sense is to handle at least `SIGINT` and `SIGTERM` gracefully.
 
 mudule signal_ - Set handlers for asynchronous events
 
 .. _signal: https://docs.python.org/3/library/signal.html
 
+module atexit_ - register exit handlers
 
+.. _atexit: https://docs.python.org/3/library/atexit.html
 
+.. note::
+    The functions registered via this module are not called when the program is killed by a signal not handled by Python, when a Python fatal internal error is detected, or when os._exit() is called.
 
 
