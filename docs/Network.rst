@@ -42,7 +42,7 @@ UDP
 OSI
 ===
 
-.. image:: img/osi.jpg
+.. image:: img/osi.gif
 
 
 
