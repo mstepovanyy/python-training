@@ -28,6 +28,11 @@ Determinate MAC address based on existing IP address.
 .. image:: img/arp.png
 
 
+Video arp_
+
+.. _arp:: https://www.youtube.com/watch?v=aamG4-tH_m8
+
+
 TCP
 ===
 
@@ -45,5 +50,10 @@ OSI
 .. image:: img/osi.gif
 
 
+NAS
+===
 
+Check nas_
+
+.. _nas:: https://www.youtube.com/watch?v=01ajHxPLxAw
 
