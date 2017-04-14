@@ -1,7 +1,7 @@
 
 .. contents::
 
-.. numbers::
+.. sectnum::
 
 Ethernet packet frame
 =====================
