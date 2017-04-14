@@ -12,6 +12,7 @@ ARP packet
 ==========
 
 Determinate MAC address based on existing IP address.
+
 +-------------------------+--------------+
 | On image                | Description  |
 +=========================+==============+
